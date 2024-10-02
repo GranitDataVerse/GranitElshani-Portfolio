@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Granit's Full Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            text-align: center;
+            padding-top: 20px;
+        }
+        .work-item {
+            display: grid; /* Use CSS grid for layout */
+            grid-template-columns: 1fr 1fr; /* Two equal columns */
+            grid-gap: 20px; /* Gap between columns */
+            max-width: 2000px;
+            margin: 20px auto;
+        }
+        .work-item .image img {
+            width: 100%;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: transform 0.3s ease;
+        }
+        .work-item .image img.fullscreen {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: 1000;
+            background: rgba(0, 0, 0, 0.8);
+            object-fit: contain;
+            border-radius: 0;
+        }
+        .work-item .text {
+            text-align: left;
+        }
+        .container {
+            background-color: #ffffff; /* White background color */
+            border-radius: 8px; /* Rounded corners */
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Shadow effect */
+            padding: 20px; /* Padding inside the container */
+            margin-bottom: 20px; /* Spacing below the container */
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <h2>Comments</h2>
+        <p>Here, you'll discover detailed visualizations with commentary. Feel free to explore insights that catch your interest or share your interpretations with me. I'm always open to connecting and collaborating on new ideas.</p>
+        <div class="container">
+            <div class="work-item">
+                <div class="image">
+                    <a href="#" class="image fit thumb"><img src="images/Ecomerce.JPG" alt="" id="expandableImage"/></a>
+                </div>
+                <div class="text">
+                    <h3>Market Analysis and Sales Optimization</h3>
+                    <p>In this visualization, I analyzed a CSV file containing over 500,000 transactions to gain deeper insights into customer behavior. Leveraging SQL for data extraction, Excel for preliminary analysis, and Looker Studio for visualization, I aimed to uncover patterns and trends that could drive strategic business decisions.
+
+                        <br><br>One of the most significant findings from this analysis is that the top 1% of customers contribute almost 20% of the company’s total income. Furthermore, the top 10% of customers account for an impressive 45% of the overall revenue. This clearly illustrates the disproportionate value these high-tier clients bring to the business. It underscores the critical importance of prioritizing customer service and personalized experiences for these top clients, as they are the cornerstone of our financial success.
+                        
+                        <br><br>Additionally, the data revealed an intriguing pattern regarding repeat purchases. When a customer made a second purchase, they typically continued to engage with the company, making an average of nine additional transactions. This insight is invaluable for crafting targeted marketing strategies. For instance, by identifying customers after their initial purchase, the company can implement personalized advertising campaigns or exclusive discount offers to encourage further purchases. This approach not only fosters customer loyalty but also maximizes lifetime value.
+                        
+                        <br><br>Throughout this project, several other interesting observations emerged. For example, I identified peak purchasing periods and product preferences among different customer segments. Such insights can help optimize inventory management, refine marketing efforts, and tailor product offerings to better meet customer needs.
+                        
+                        <br><br>By understanding these dynamics, the company can enhance its customer relationship management (CRM) strategies, ensuring that high-value clients receive the attention and incentives they deserve. Moreover, the ability to predict customer behavior based on past transactions allows for more precise and effective marketing interventions.
+                        
+                        <br><br>In conclusion, this comprehensive analysis highlights the critical role of top-tier customers and the importance of fostering long-term relationships with them. The findings offer actionable insights that can guide the company's efforts in customer retention, targeted marketing, and overall strategic planning. By leveraging data-driven approaches, the company is well-positioned to optimize its operations and achieve sustainable growth.
+                        
+                        </p>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="work-item">
+                <div class="image">
+                    <a href="#" class="image fit thumb"><img src="images/Looker Studio Final.jpg" alt="" id="expandableImage2"/></a>
+                </div>
+                <div class="text">
+                    <h3>Exploring Workforce Dynamics: A Journey into HR Data Insights</h3>
+        
+
+                    <p>Embarking on this exploration of HR data, my goal was to uncover the stories behind the numbers, providing a deeper understanding of employee demographics and trends. With SQL as my guide for data extraction, Excel as my tool for analysis, and Looker Studio as my canvas for visualization, I set out on a quest to reveal the essence of workforce dynamics.
+
+<br><br>Along this journey, I encountered challenges that not only tested my analytical skills but also taught me valuable lessons in patience and perseverance. One such challenge was calculating the average age of employees over time. It required a delicate balance of including current employees while excluding past ones, adding layers of complexity to the analysis. However, the effort was rewarding, offering intriguing insights into the evolution of the workforce and the implications for talent strategy.
+
+<br><br>One of the most captivating discoveries was the gradual shift in the average age of employees over the years. This trend hinted at a changing dynamic within organizations, suggesting the need for strategic workforce planning to ensure a diverse and balanced mix of experience and fresh perspectives.
+
+<br><br>Moreover, the data illuminated a story of gender balance. It showcased a commitment to creating diverse and inclusive workplaces, where individuals of all genders have equal opportunities to thrive.
+
+<br><br>Another compelling finding was the relationship between employee satisfaction and their managers. Some employees showed higher satisfaction levels when grouped by Manager ID, indicating the potential impact of managerial styles on employee morale. However, the lack of detailed data on manager types left this discovery open to interpretation, prompting further exploration into the nuances of employee-manager relationships.
+
+<br><br>Furthermore, the analysis unveiled the primary reasons for employee departures, offering valuable insights for enhancing retention strategies. Armed with this knowledge, organizations can proactively address potential issues, fostering work environments where employees feel valued and motivated to stay.
+
+<br><br>In conclusion, this project highlights the transformative power of human-centered data analysis in shaping HR strategies. By delving beyond the numbers and into the stories they tell, organizations can make more informed decisions that benefit both employees and the organization. It is a testament to the profound impact of data-driven approaches in shaping the future of workforces.
+</p>
+    </div>
+</div>
+</div>
+    <div class="container">
+        <div class="work-item">
+            <div class="image">
+                <a href="#" class="image fit thumb"><img src="images/Number of Dams per State.png" alt="" id="expandableImage3"/></a>
+            </div>
+            <div class="text">
+                <h3>Dam Density Analysis</h3>
+    
+
+                <p>This interactive map shows the density of dams across the United States, providing a visual representation of the number of dams per state. The states of the Midwest, including Kansas, Oklahoma, and Texas, have a high number of dams, followed by the East Coast, which also shows significant dam presence. The West Coast, on the other hand, has a lower number of dams in comparison. This disparity can be attributed to various factors such as geographical features, availability of water resources, and historical infrastructure development.<br><br>
+
+                    The concentration of dams in the Midwest can be linked to the region's extensive agricultural activities, which require substantial water management and irrigation systems. The East Coast's dam density is influenced by its early industrialization and the need for flood control in densely populated areas. In contrast, the West Coast's lower dam count is partly due to its rugged terrain and stringent environmental regulations.<br><br>
+                    
+                    To better understand the factors influencing the number of dams per state, I've created another visualization showing the number of dams per square mile of water area. This second visual helps to clarify how water resources and geographical features impact dam distribution across different regions. By analyzing dam density relative to water area, we gain insights into the efficiency of water resource management and the environmental considerations in each state.<br><br>
+                    
+                    These visualizations provide a comprehensive overview of dam distribution and highlight the regional differences in water management strategies across the United States. They also underscore the importance of considering both geographical and socio-economic factors when planning and implementing water infrastructure projects.<br><br>
+                </p>
+</div>
+</div>
+</div>
+                <div class="container">
+                <div class="work-item">
+                    <div class="image">
+                        <a href="#" class="image fit thumb"><img src="images/Number of Dams per Square mile of water area.png" alt="" id="expandableImage4"/></a>
+                    </div>
+                    <div class="text">
+                        <h3>Dam Density Analysis</h3>
+            
+            
+                        <p><strong>Exploring Dam Density Across the United States</strong>
+
+                            Water is vital for life and the economy, making the management of water resources crucial. The "Number of Dams per Square Mile of Water Area" visualization provides a unique look at how states across the U.S. manage their water through dam infrastructure.<br><br>
+                            
+                            <strong>Insights into Water Management</strong>
+                            
+                            States like Nebraska, Kansas, Missouri, and Iowa stand out with a high density of dams per square mile of water area. This indicates a strong reliance on dams for various purposes such as irrigation, flood control, and water supply, particularly to support agriculture and industry.<br><br>
+                            
+                            <strong>Environmental Factors and Infrastructure</strong>                            
+                            Conversely, states along the West Coast not only have the lowest number of dams but also the lowest density of dams per square mile of water area. This is due to the region's rugged terrain and strict environmental regulations, which pose challenges for balancing water infrastructure development with environmental conservation.<br><br>
+                            
+                            <strong>Sustainability and Future Planning</strong>
+                            
+                            This visualization helps us understand how different states manage their water resources and highlights the importance of sustainable water management practices. As water demand increases and environmental pressures grow, insights from this visualization can inform future water infrastructure planning to ensure sustainable water management for generations to come.<br><br>
+                        </p>
+            </div>
+            </div>
+            </div>
+            </p>
+</div>
+</div>
+</div>
+    <script>
+        const img = document.getElementById('expandableImage');
+        img.addEventListener('click', () => {
+            if (img.classList.contains('fullscreen')) {
+                img.classList.remove('fullscreen');
+            } else {
+                img.classList.add('fullscreen');
+            }
+        });
+        const img2 = document.getElementById('expandableImage2');
+        img2.addEventListener('click', () => {
+            if (img2.classList.contains('fullscreen')) {
+                img2.classList.remove('fullscreen');
+            } else {
+                img2.classList.add('fullscreen');
+            }
+        });
+        const img3 = document.getElementById('expandableImage3');
+        img3.addEventListener('click', () => {
+            if (img3.classList.contains('fullscreen')) {
+                img3.classList.remove('fullscreen');
+            } else {
+                img3.classList.add('fullscreen');
+            }
+        });
+    </script>
+</body>
+</html>
